@@ -1,8 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 const Projects = ({project}) => {
-  const {live,git,name}= project
+  
+const navigate = useNavigate()
+  const {live,git,name,img1,id}= project
 
   const liveSite =()=>{
     <Link to={window.open(live)}>Live</Link>
@@ -10,16 +12,18 @@ const Projects = ({project}) => {
   const gitSite =()=>{
     <Link to={window.open(git)}>Live</Link>
   }
-
+const handleDetails=id=>{
+      navigate(`/detail/${id}`)
+}
   return (
    
   <>
   
-  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16">
-  {/* <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure> */}
+  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <img src={img1} alt="Shoes" />
   <div class="card-body">
     <h2 class=" text-3xl font-bold text-white text-center">
-     {name.toString()}
+     {name}
      
     </h2>
     
@@ -30,8 +34,14 @@ const Projects = ({project}) => {
       <button className="btn btn-xs btn-primary" onClick={gitSite}>
       Git Repo
       </button>
+      
     </div>
+   
+    <button onClick={()=>handleDetails(id)} class="btn btn-primary">Details</button>
+
+    
   </div>
+  
 </div>
   
   </>
