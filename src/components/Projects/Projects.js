@@ -31,7 +31,7 @@ const Projects = () => {
    
   <>
   
-  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <div class="card mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
   <img src={de1} alt="Shoes" />
   <div class="card-body">
     <h2 class=" text-3xl font-bold text-white text-center">
@@ -49,15 +49,15 @@ const Projects = () => {
       
     </div>
    
-    <button  class="btn btn-primary">
-      <Link to='/project1' >Details</Link>
-    </button>
+   
+      <Link class="btn btn-primary" to='/projectDe' >Details</Link>
+   
 
     
   </div>
   
 </div>
-  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 mb-4 lg:ml-16 border-2">
   <img src={mo1} alt="Shoes" />
   <div class="card-body">
     <h2 class=" text-3xl font-bold text-white text-center">
@@ -75,15 +75,15 @@ const Projects = () => {
       
     </div>
    
-    <button  class="btn btn-primary">
-      <Link to='/project2' >Details</Link>
-    </button>
+   
+      <Link  class="btn btn-primary" to='/projectMo' >Details</Link>
+    
 
     
   </div>
   
 </div>
-  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <div class="card mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
   <img src={bg1} alt="Shoes" />
   <div class="card-body">
     <h2 class=" text-3xl font-bold text-white text-center">
@@ -92,18 +92,18 @@ const Projects = () => {
     </h2>
     
     <div class="card-actions justify-center items-end">
-      <button className="btn btn-xs btn-primary " onClick={liveSiteP3}>
+      <button className="btn btn-xs btn-primary " onClick={liveSiteP3} >
       Live Demo
       </button>
-      <button className="btn btn-xs btn-primary" onClick={gitSiteP3}>
+      <button className="btn btn-xs btn-primary" onClick={gitSiteP3} >
       Git Repo
       </button>
       
     </div>
    
-    <button  class="btn btn-primary">
-      <Link to='/project3' >Details</Link>
-    </button>
+   
+      <Link  class="btn btn-primary" to='/projectBi' >Details</Link>
+   
 
     
   </div>
