@@ -5,7 +5,9 @@ import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import ProjectDetail from './components/ProjectDetails/ProjectDetail';
+import Project1 from './components/ProjectDetails/Project1';
+import Project2 from './components/ProjectDetails/Project2';
+import Project3 from './components/ProjectDetails/Project3';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
        <Route path='/contact' element={<Contact></Contact>}></Route>
        <Route path='/about' element={<About/>}></Route>
        <Route path='/blog' element={<Blog/>}></Route>
-       <Route path='/detail/:id' element={<ProjectDetail></ProjectDetail>}></Route>
+      <Route path='/project1' element={<Project1 />} > </Route>
+      <Route path='/project2' element={<Project2 />} > </Route>
+     <Route path='/project3' element={<Project3></Project3>} ></Route>
        </Routes> 
     </div>
   );
