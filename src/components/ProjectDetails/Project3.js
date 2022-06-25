@@ -13,30 +13,30 @@ const Project3 = () => {
       }
     return (
         <div className="bg-gradient-to-r from-slate-900 to-violet-700">
-        <div class="hero min-h-screen ">
-          <div class="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero min-h-screen ">
+          <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="grid grid-cols-1 gap-5">
             <div>
             <img
               src={bi1}
-              class=" max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
+              className=" max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
             />
             </div>
             <div>
             <img
               src={bi2}
-              class=" max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
+              className=" max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
             />
             </div>
             <div>
             <img
               src={bi3}
-              class="max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
+              className="max-w-xs lg:max-w-sm  rounded-lg shadow-2xl" alt=""
             />
             </div>
             </div>
             <div className="max-w-xl text-white">
-              <h1 class="text-5xl font-bold text-purple-200 drop-shadow-xl ">BigBrand Reviews</h1>
+              <h1 className="text-5xl ani-title font-bold text-purple-200 drop-shadow-xl ">BigBrand Reviews</h1>
                <article className="lg:my-2 my-0 font-semibold text-xl text-purple-100 ">
                <p>
                   -Big Brand is a product analysis website 
@@ -53,8 +53,8 @@ const Project3 = () => {
               </p>
               <p> <span className='font-bold text-2xl'>Technology Used :</span> React, React Router , Rechart , Vanilla CSS etc.  </p>
                </article>
-              <button class="btn btn-primary"  onClick={liveSiteP3} >Live Site</button>
-              <button class="btn btn-primary ml-2" onClick={gitSiteP3} >Git Repo</button>
+              <button className="btn btn-primary"  onClick={liveSiteP3} >Live Site</button>
+              <button className="btn btn-primary ml-2" onClick={gitSiteP3} >Git Repo</button>
             </div>
           </div>
         </div>

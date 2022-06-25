@@ -1,0 +1,17 @@
+.bg{
+    background: rgb(3,2,20);
+background: linear-gradient(90deg, rgba(3,2,20,1) 23%, rgba(60,9,121,1) 65%, rgba(188,0,255,1) 100%);
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

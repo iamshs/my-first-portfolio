@@ -3,6 +3,7 @@ import { Link} from "react-router-dom";
 import de1 from '../../assets/ss/screenshot-de.png'
 import mo1 from '../../assets/ss/screenshot-mo.png'
 import bg1 from '../../assets/ss/s.png'
+import './Projects.css'
 
 const Projects = () => {
   
@@ -31,15 +32,15 @@ const Projects = () => {
    
   <>
   
-  <div class="card mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <div className="card project-ani mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
   <img src={de1} alt="Shoes" />
-  <div class="card-body">
-    <h2 class=" text-3xl font-bold text-white text-center">
+  <div className="card-body">
+    <h2 className=" text-3xl font-bold text-white text-center">
     De Wild
      
     </h2>
     
-    <div class="card-actions justify-center items-end">
+    <div className="card-actions justify-center items-end">
       <button className="btn btn-xs btn-primary " onClick={liveSiteP1}>
       Live Demo
       </button>
@@ -50,22 +51,22 @@ const Projects = () => {
     </div>
    
    
-      <Link class="btn btn-primary" to='/projectDe' >Details</Link>
+      <Link className="btn btn-primary" to='/projectDe' >Details</Link>
    
 
     
   </div>
   
 </div>
-  <div class="card max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 mb-4 lg:ml-16 border-2">
+  <div className="card project-ani max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 mb-4 lg:ml-16 border-2">
   <img src={mo1} alt="Shoes" />
-  <div class="card-body">
-    <h2 class=" text-3xl font-bold text-white text-center">
+  <div className="card-body">
+    <h2 className=" text-3xl font-bold text-white text-center">
     Motor House
      
     </h2>
     
-    <div class="card-actions justify-center items-end">
+    <div className="card-actions justify-center items-end">
       <button className="btn btn-xs btn-primary " onClick={liveSiteP2}>
       Live Demo
       </button>
@@ -76,22 +77,22 @@ const Projects = () => {
     </div>
    
    
-      <Link  class="btn btn-primary" to='/projectMo' >Details</Link>
+      <Link  className="btn btn-primary" to='/projectMo' >Details</Link>
     
 
     
   </div>
   
 </div>
-  <div class="card mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
+  <div className="card project-ani mb-4 max-w-xs bg-gradient-to-r from-purple-700 to-purple-500  shadow-xl ml-10 lg:ml-16 border-2">
   <img src={bg1} alt="Shoes" />
-  <div class="card-body">
-    <h2 class=" text-3xl font-bold text-white text-center">
+  <div className="card-body">
+    <h2 className=" text-3xl font-bold text-white text-center">
    BigBrand Reviews
      
     </h2>
     
-    <div class="card-actions justify-center items-end">
+    <div className="card-actions justify-center items-end">
       <button className="btn btn-xs btn-primary " onClick={liveSiteP3} >
       Live Demo
       </button>
@@ -102,7 +103,7 @@ const Projects = () => {
     </div>
    
    
-      <Link  class="btn btn-primary" to='/projectBi' >Details</Link>
+      <Link  className="btn btn-primary" to='/projectBi' >Details</Link>
    
 
     

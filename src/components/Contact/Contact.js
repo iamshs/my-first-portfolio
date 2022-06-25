@@ -22,10 +22,10 @@ const Contact = () => {
           </p>
            <form onSubmit={sendEmail}>
           <div className="form-control w-full max-w-md mx-auto min-h-screen">
-          <input type="text" required placeholder="Your Name" name='name' class="input my-2 w-full input-bordered " />   
-           <input type="email" required placeholder="Your Email" name='email' class="input my-2 w-full input-bordered " />   
-           <input type="text" required placeholder="Subject" name='subject' class="input my-2 input-bordered w-full " />   
-           <textarea class=" my-2 textarea textarea-bordered" required name='message' placeholder="Text"></textarea> 
+          <input type="text" required placeholder="Your Name" name='name' className="input my-2 w-full input-bordered " />   
+           <input type="email" required placeholder="Your Email" name='email' className="input my-2 w-full input-bordered " />   
+           <input type="text" required placeholder="Subject" name='subject' className="input my-2 input-bordered w-full " />   
+           <textarea className=" my-2 textarea textarea-bordered" required name='message' placeholder="Text"></textarea> 
            
            <input type="submit" className="btn btn-primary" value="SEND" />
           </div>

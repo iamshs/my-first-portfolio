@@ -1,0 +1,4 @@
+.project-ani:hover{
+   transform: scale(1.15);
+   transition: 0.2s 0s transform ease-in;
+}
