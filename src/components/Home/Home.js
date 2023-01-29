@@ -18,7 +18,7 @@ const Home = () => {
           <div>
           <h1 className="text-6xl ani-title font-light  text-center    my-20 font-serif">MY PROJECTS</h1>
           </div>
-         <div className='grid grid-cols-1 bg p-10 lg:grid-cols-3 gap-4'>
+         <div className='flex items-center justify-around flex-cols lg:flex-row py-10 bg '>
         <Projects></Projects>
          </div>
          <div className=''>

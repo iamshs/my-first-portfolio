@@ -14,7 +14,7 @@ const Contact = () => {
 }
 
     return (
-        <div className=' mt-0 bg-gradient-to-r mx-auto from-slate-600 to-violet-600  min-h-screen'>
+        <div className=' mt-0 bg-gradient-to-r mx-auto from-slate-900 to-violet-800  min-h-screen'>
             <p className='max-w-md text-amber-400 font-bold mx-auto py-10  ' style={{"text-shadow": "1px 1px rgb(38 38 38)"}}>
             I am interested in opportunities - especially ambitious or large
             projects. However, if you have other request or question, don't

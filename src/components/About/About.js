@@ -13,7 +13,7 @@ const About = () => {
 </div>
           <div className='max-w-xl text-white'>
             <h1 className="text-5xl font-bold">About ME:</h1>
-            <p className="py-6 font-bold text-xl">My Name is Md Sholayman.I am a full-stack developer.I have experience in front-end web development, working with technologies like React,Tailwind CSS, React Bootstrap , express.js , firebase, MongoDB.Until now,I am enjoying every part of my journey in Programming World.</p>
+            <p className="py-6 font-bold text-lg">My Name is Md Sholayman.I am a full-stack developer.I have experience in front-end web development, working with technologies like React,Tailwind CSS, React Bootstrap , express.js , firebase, MongoDB.Until now,I am enjoying every part of my journey in Programming World.</p>
            
           </div>
         </div>
